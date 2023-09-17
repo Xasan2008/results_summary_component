@@ -1,26 +1,22 @@
-/* const THEME_TOGGLER_BUTTON = '.theme-toggler'; */
-
-function init () {
-  /* const elThemeTogglerButton = document.querySelector(THEME_TOGGLER_BUTTON);
-
-
-  // DOM handlers
-  function switchTheme () {
-    const elRoot = document.documentElement
-    let dataTheme = elRoot.getAttribute('data-theme');
-
-    let newTheme = (dataTheme === 'light') ? 'dark' : 'light';
-
-    elRoot.setAttribute('data-theme', newTheme);
-
-    localStorage.setItem('theme', newTheme);
+const data = [
+  {
+    "category": "Reaction",
+    "score": 80,
+    "icon": ".img/icon-reaction.svg"
+  },
+  {
+    "category": "Memory",
+    "score": 92,
+    "icon": "..img/icon-memory.svg"
+  },
+  {
+    "category": "Verbal",
+    "score": 61,
+    "icon": "..img/icon-verbal.svg"
+  },
+  {
+    "category": "Visual",
+    "score": 72,
+    "icon": "./assets/images/icon-visual.svg"
   }
-
-
-  // Event listeners
-  if (elThemeTogglerButton) {
-    elThemeTogglerButton.addEventListener('click', switchTheme);
-  } */
-}
-
-document.addEventListener('DOMContentLoaded', init);
+]
